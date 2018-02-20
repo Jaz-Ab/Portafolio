@@ -1,16 +1,141 @@
-.green {
-  background: green;
-  border: 1px solid white;
+body {
+  position: relative;
 }
 
-.pink {
-  background: pink;
+.text-home p {
+  font-family: 'Bilbo', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #000000;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+  margin-top: 50px;
 }
 
-.blue {
-  background: rgb(73, 115, 252)221, 175, 183);
+.dow-icon {
+  color: rgb(221, 4, 114);
+}
+
+.dow-icon:hover {
+  border-radius: 5px;
+  box-shadow: 0.1px 0.1px 8px rgb(255, 105, 171) inset;
+  color: rgb(221, 4, 121);
+}
+
+.icon-group {
+  margin-top: 35px;
+  width: 70px;
 }
 
 .git-image {
   width: 35px;
+}
+
+.black-div {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+#one {
+  animation: move 10s infinite linear alternate;
+  background-image: url(../assets/images/695931.jpg);
+  background-size: 120%;
+  background-position: right;
+  padding-top: 35vh;
+}
+
+@keyframes move {
+  from {
+    background-position: top right;
+  } to {
+    background-position: bottom left;
+  }
+}
+
+#two {
+  background-image: url(../assets/images/two.jpg);
+  background-size: 120%;
+  padding-top: 8vh;
+}
+
+#three {
+  background-image: url(../assets/images/two.jpg);
+  background-size: cover;
+  padding-top: 8vh;
+}
+
+#four {
+  padding-top: 8vh;
+}
+
+.container-scroll {
+  height: 100vh;
+}
+
+.text-menu {
+  font-size: 18px;
+}
+
+.name-nav {
+  font-size: 28px !important;
+  font-family: 'Saira', sans-serif !important;
+  font-weight: 500;
+}
+
+.name-nav:hover {
+  font-weight: 700;
+}
+
+.nav-fixed {
+  height: 70px;
+  margin-top: 0;
+  position: fixed;
+  z-index: 50000;
+}
+
+.nav-fixed ul li:hover {
+  background: rgb(244, 185, 232);
+  font-weight: 600;
+}
+
+.about-text {
+  background: rgba(255, 255, 255, 0.65);
+  color: rgb(0, 0, 0);
+  font-family: 'Saira', sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  height: auto;
+}
+
+.skills-text {
+  background: rgba(255, 255, 255, 0.65);
+  color: rgb(0, 0, 0);
+  font-family: 'Saira', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  height: auto;
+}
+
+.photo-about {
+  border: 5px solid white;
+  height: 350px;
+  margin-top: 40px;
+  padding: 5px;
+}
+
+.spitch {
+  font-family: 'Saira', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.logos {
+  margin-left: 50px;
+  height: 50px;
+  width: auto;
+}
+
+.back-color {
+  background: rgba(0, 9, 66, 0.8);
+  color: #ffff;
+  margin-bottom: 0;
 }
